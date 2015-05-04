@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29CDE0F01AF7B7FA00C02916 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29CDE0EF1AF7B7FA00C02916 /* main.cpp */; };
+		29CDE0FD1AF7B99300C02916 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 29CDE0FC1AF7B99300C02916 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,13 @@
 /* Begin PBXFileReference section */
 		29CDE0EC1AF7B7F900C02916 /* DR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DR; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CDE0EF1AF7B7FA00C02916 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		29CDE0F61AF7B99200C02916 /* create_balanced_classes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = create_balanced_classes.py; sourceTree = "<group>"; };
+		29CDE0F71AF7B99200C02916 /* create_image_sframes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = create_image_sframes.py; sourceTree = "<group>"; };
+		29CDE0F81AF7B99200C02916 /* create_nn_model.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = create_nn_model.py; sourceTree = "<group>"; };
+		29CDE0F91AF7B99200C02916 /* create_submission.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = create_submission.py; sourceTree = "<group>"; };
+		29CDE0FA1AF7B99300C02916 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		29CDE0FB1AF7B99300C02916 /* prep_image.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = prep_image.sh; sourceTree = "<group>"; };
+		29CDE0FC1AF7B99300C02916 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,13 @@
 		29CDE0EE1AF7B7FA00C02916 /* DR */ = {
 			isa = PBXGroup;
 			children = (
+				29CDE0F61AF7B99200C02916 /* create_balanced_classes.py */,
+				29CDE0F71AF7B99200C02916 /* create_image_sframes.py */,
+				29CDE0F81AF7B99200C02916 /* create_nn_model.py */,
+				29CDE0F91AF7B99200C02916 /* create_submission.py */,
+				29CDE0FA1AF7B99300C02916 /* LICENSE */,
+				29CDE0FB1AF7B99300C02916 /* prep_image.sh */,
+				29CDE0FC1AF7B99300C02916 /* README.md */,
 				29CDE0EF1AF7B7FA00C02916 /* main.cpp */,
 			);
 			path = DR;
@@ -118,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CDE0FD1AF7B99300C02916 /* README.md in Sources */,
 				29CDE0F01AF7B7FA00C02916 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@ import array
 import numpy as np
 import sys
 
-# Run this script in the same directory as the 
+# Run this script in the same directory as the whatever
 
 train_path = "image-sframes/train-%d/"
 valid_path = "image-sframes/validation-%d/"
